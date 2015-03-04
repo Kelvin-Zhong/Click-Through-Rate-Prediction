@@ -1,4 +1,5 @@
 def ROC(label,result):
+    %matplotlib inline
     from sklearn.utils import shuffle
     from sklearn.metrics import roc_curve, auc
     import pylab as pl
